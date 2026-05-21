@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import TrustBar from "./components/temp"
+import TrustBar from "./components/TrustBar"
 import MainContent from "./components/MainContent"
 import Industries from "./components/Industries"
 import Process from "./components/Process"
