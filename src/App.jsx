@@ -14,17 +14,25 @@ function App() {
 
       <Header />
 
-      <Hero />
+      <main>
 
-      <TrustBar />
-      <MainContent />
-      <Industries />
-      <Process />
-      <Workflow />
-      <CTASection />
+        <Hero />
 
-      <Footer />  
-      
+        <TrustBar />
+
+        <MainContent />
+
+        <Industries />
+
+        <Process />
+
+        <Workflow />
+
+        <CTASection />
+
+      </main>
+
+      <Footer />
 
     </div>
   )
