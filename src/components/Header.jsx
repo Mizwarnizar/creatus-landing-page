@@ -1,12 +1,35 @@
+import logo from "../assets/logo.png"
+
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-[#0B1120]/80 border-b border-white/10">
+
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        <h1 className="text-2xl font-bold">
-          Creatus Technologies
-        </h1>
+        {/* LOGO SECTION */}
+        <div className="flex items-center gap-4">
 
+          <img
+            src={logo}
+            alt="Creatus Technologies Logo"
+            className="h-12 w-auto object-contain"
+          />
+
+          <div>
+
+            <h1 className="text-xl md:text-2xl font-bold">
+              Creatus Technologies
+            </h1>
+
+            <p className="text-xs text-gray-400 hidden sm:block">
+              3D Scan to CAD & Reverse Engineering
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* RIGHT SIDE */}
         <div className="flex items-center gap-6">
 
           <p className="hidden md:block text-gray-300">
@@ -18,7 +41,9 @@ const Header = () => {
           </button>
 
         </div>
+
       </div>
+
     </header>
   )
 }
