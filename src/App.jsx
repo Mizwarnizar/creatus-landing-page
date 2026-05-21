@@ -5,7 +5,6 @@ import MainContent from "./components/MainContent"
 import Industries from "./components/Industries"
 import Process from "./components/Process"
 import Workflow from "./components/Workflow"
-import CTASection from "./components/CTASection"
 import Footer from "./components/Footer"
 
 function App() {
