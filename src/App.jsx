@@ -4,7 +4,7 @@ import TrustBar from "./components/TrustBar"
 import MainContent from "./components/MainContent"
 import Industries from "./components/Industries"
 import Process from "./components/Process"
-import Workflow from "./components/tempWorkflow"
+import Workflow from "./components/Workflow"
 import Footer from "./components/Footer"
 
 function App() {
