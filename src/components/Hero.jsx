@@ -1,3 +1,4 @@
+import hero from "../assets/hero.png"
 const Hero = () => {
   return (
     <section className="py-28">
@@ -47,7 +48,7 @@ const Hero = () => {
         <div>
 
           <img
-            src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop"
+            src={hero}
             alt="Engineering CAD"
             className="rounded-[40px] w-full h-[550px] object-cover shadow-2xl"
           />
