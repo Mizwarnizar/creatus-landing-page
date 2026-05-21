@@ -6,6 +6,7 @@ import Industries from "./components/Industries"
 import Process from "./components/Process"
 import Workflow from "./components/Workflow"
 import Footer from "./components/Footer"
+import CTASection from "./components/CTASection"
 
 function App() {
   return (
